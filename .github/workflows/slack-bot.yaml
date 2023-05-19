@@ -25,5 +25,5 @@ jobs:
         env:
           SLACK_BOT_TOKEN: ${{ secrets.SLACK_BOT_TOKEN }}
         run: |
-          cd path/to/your/code/directory
+          cd ./
           node index.js
